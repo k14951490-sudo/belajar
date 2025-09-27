@@ -1,7 +1,7 @@
 {
   "name": "KelasKu - Platform Kelas Online",
   "short_name": "KelasKu",
-  "start_url": "index.html",
+  "start_url": "https://k14951490-sudo.github.io/belajar/",
   "display": "standalone",
   "scope": "/",
   "background_color": "#f7f9fb",
@@ -12,3 +12,4 @@
   ]
 
 }
+
