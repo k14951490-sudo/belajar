@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>KelasKu - Platform Kelas Online</title>
+
+  <!-- theme color -->
+  <meta name="theme-color" content="#222222">
+
+  <!-- manifest -->
+  <link rel="manifest" href="p.json">
+
+  <!-- fallback icon for iOS (optional) -->
+  <link rel="apple-touch-icon" href="/icons/icon-192.png">
+
+  <style>
+    body { font-family: Inter, Arial, sans-serif; margin:0; background:#f7f9fb; color:#222; }
+    header{ background:#fff; padding:1rem; box-shadow:0 2px 8px rgba(0,0,0,0.04); position:sticky; top:0; }
+  </style>
+</head>
+<body>
+  <header><h1>KelasKu</h1></header>
+  <main style="padding:1rem;">
+    <p>Contoh PWA minimal. Cek console & Application -> Manifest pada DevTools.</p>
+  </main>
+
+  <script>
+    // Registrasi service worker (pastikan file sw.js ada di root)
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/script.js')
+        .then(reg => console.log('SW registered', reg))
+        .catch(err => console.warn('SW registration failed', err));
+    } else {
+      console.log('Service Worker tidak didukung di browser ini.');
+    }
+  </script>
+</body>
+</html>
