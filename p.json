@@ -1,13 +1,14 @@
 {
   "name": "KelasKu - Platform Kelas Online",
   "short_name": "KelasKu",
-  "start_url": "p.html",
+  "start_url": "index.html",
   "display": "standalone",
   "scope": "/",
   "background_color": "#f7f9fb",
   "theme_color": "#222222",
   "icons": [
-    { "src": "New folder/logo.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "New folder/logo.png", "sizes": "512x512", "type": "image/png" }
+    { "src": "https://i.ibb.co.com/tM01f4QS/logo.jpg", "sizes": "192x192", "type": "image/png" },
+    { "src": "https://i.ibb.co.com/tM01f4QS/logo.jpg", "sizes": "512x512", "type": "image/png" }
   ]
+
 }
